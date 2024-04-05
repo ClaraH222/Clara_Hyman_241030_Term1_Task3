@@ -1,0 +1,670 @@
+@font-face{
+    font-family: 'PorterSansBlock';
+    src: url(../assests/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff");
+    /* how to get font */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.627);
+    border-radius: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    /* nav search bar and icons */
+}
+
+.search input{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 8pt;
+    border: none;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.head{
+    min-height: 100dv;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assests/Images/homePageHeader.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 2em;
+}
+
+.textOverlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.rootFont{
+    position: absolute;
+    bottom: 70px;
+    left: 15px;
+}
+
+.rootFont h2{
+    color: red;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    line-height: 0.4;
+    font-family: 'PorterSansBlock';
+    padding-left: 1em;
+    font-weight: 100;
+}
+
+.rootFont p{
+    color: #2b0255;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-left: 2em;
+    font-weight: 700;
+}
+
+.topNav a.active {
+    color: red;
+    font-weight: 600;
+}
+
+.topNav a {
+    float: center;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+.flexContainer{
+    background-color: #400080;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flexItem1 img{
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 120px;
+    /* how to put arrows */
+}
+
+.flexItem1 h1{
+    font-family: sans-serif;
+    color: white;
+    padding-right: 120px;
+    padding-left: 0em;
+    font-size: 27pt;
+}
+
+.flexItem1 h4{
+    font-family: sans-serif;
+    color: #00ccff;
+    padding-left: 0em;
+    padding-right: 120px;
+}
+
+.flexItem1 p{
+    font-family: sans-serif;
+    color: white;
+    padding-left: 0em;
+    font-size: 15pt;
+}
+
+.button {
+    background-color: #aa1111;
+    color: white;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.flexContainer2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flexItem2 h1{
+    font-family: sans-serif;
+    color: #400080;
+    padding-left: 0em;
+    font-size: 27pt;
+}
+
+.flexItem2 img{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+    
+}
+
+.flexItem2 h4{
+    font-family: sans-serif;
+    color: #00ccff;
+    padding-left: 0em;
+}
+
+.flexItem2 p{
+    font-family: sans-serif;
+    color: #333;
+    padding-left: 0em;
+    font-size: 15pt;
+}
+
+.flexContainer3{
+    background-color: #400080;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 30px;
+}
+
+.flexItem3 h4{
+    font-family: sans-serif;
+    color: #00ccff;
+}
+
+.flexItem3 h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 23pt;
+}
+
+.flexContainer4{
+    background-color: #400080;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flexItem4 h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15pt;
+}
+
+.flexItem4 p{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.flexItem4 img{
+    padding: 20px;
+}
+
+.flexContainer5{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem5 p{
+    color: #3d3d5c;
+    font-family: sans-serif;
+    font-size: 12pt;
+} 
+.flexItem5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.flexItem5 h5{
+    font-size: 14pt ;
+    font-family: sans-serif;
+    color: #29293d;
+}
+
+.flexItem5 img{
+    padding: 5px;
+}
+
+.flexContainer6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexContainer6 p{
+    padding-right: 750px;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 10pt;
+    padding-top: 11px;
+}
+
+.flexContainer6 h5{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.flexContainer7{
+    background-color: #400080;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+}
+
+.flexContainer7 a{
+    text-decoration: none;
+}
+
+.flightHead{
+    height: 300px;
+    width: 100%;
+    background-image: url(../assests/Images/headerbackBack.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 2em;
+}
+
+.flexContainer13{
+    display: flex;
+    align-items: center;
+}
+.rootFont h1{
+    color: white;
+    font-family: 'PorterSansBlock';
+    font-size: 35pt;
+    font-weight: 400;
+    justify-content: center;
+    /* how to make it align center */
+}
+
+.rootFont2 h1{
+    color: white;
+    font-family: 'PorterSansBlock';
+    font-size: 20pt;
+    font-weight: 400;
+    /* how to make it align center */
+}
+
+.flexContainer8{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    align-items: center; 
+    padding-top: 70px ;
+    padding-bottom: 70px ;
+    padding-left: 60px;
+}
+
+.flexItem8 h4{
+    font-family: sans-serif;
+    color: #00ccff;
+}
+
+.flexItem8 h1{
+    font-family: sans-serif;
+    color: #2b0255;
+    font-size: 30pt;
+    
+}
+
+.flexItem8 p{
+    font-family: sans-serif;
+    color: gray;
+    padding-right: 100px;
+    font-size: 17pt;
+}
+
+.flexContainer9{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 70px ;
+    padding-bottom: 70px ;
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+.flexItem9 h4{
+    font-family: sans-serif;
+    color: #00ccff;
+}
+
+.flexItem9 h1{
+    font-family: sans-serif;
+    color: #2b0255;
+    font-size: 30pt;
+    padding-right: 200px;
+}
+
+.flexItem9 img{
+    padding-left: 5px;
+    padding-bottom: 25px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.formContainer{
+    width: 600px;
+}
+
+#contact{
+   background-image: url(../assests/Images/formBack.png);
+    background-size: cover;
+    padding: 2em 4em;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+#contact h3{
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+#contact input, #contact textarea, #contact button{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+fieldset{
+    border: medium none !important;
+     
+    width: 100%;
+    padding: 0;
+    
+}
+
+fieldset p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+#contact input, #contact textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-left: 10px;
+}
+
+#contact textarea{
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+#contact button{
+    background-color: #8f1111;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14pt;
+    width: 200px;
+}
+
+.flexContainer10{
+    background-color: #2b0255;
+    width: 100%;
+    height: 40px;
+}
+
+
+.flexContainer11{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center; 
+    justify-content: center;
+}
+
+.flexItem11 img{
+    padding-top: 40px;
+    padding-right: 90px;
+}
+
+.flexItem11 h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 30pt;
+    padding-top: 120px;
+}
+
+.flexItem11 h4{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+
+.flexContainer12{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 10pt;
+}
+
+.flexItem12 img{
+    width: 140px;
+    padding-top: 0;
+   margin-top: -18px;
+}
+
+.flexItem12 p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    margin-left: -85px;
+}
+
+.flexItem11 p{
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 15pt;
+    padding-bottom: 30px;
+}
+
+.button2{
+    background-color: #2b0255;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15pt;
+}
+
+.button3 {
+    background-color: #aa1111;
+    color: white;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15pt;
+}
+
+.flexText{
+    display: flex;
+    flex-direction: row;
+    width: 100;
+    font-family: sans-serif;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+
+
+.flexTColItem{
+    padding: 10px 20px;
+}
+
+.flexContainer13{
+    background-color: #2b0255;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center; 
+    justify-content: center;
+}
+
+.flexItem13 h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30pt;
+    padding-top: 120px;
+}
+
+.flexItem13 h4{
+    color: #00ccff;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.flexItem13 p{
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 15pt;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.button4{
+    background-color: #00ccff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15pt;
+}
+
+.flexContainer14{
+    display: flex;
+    flex-direction: row;
+    font-size: 10pt;
+}
+
+.flexItem14 img{
+    width: 140px;
+    padding-top: 0;
+   margin-top: -18px;
+}
+
+.flexItem14 p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+.flexItem15 h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'PorterSansBlock';
+    color: white;
+    font-size: 30pt;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+.flexItem17 h4{
+    color: white;
+}
+
+.flexItem16 h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'PorterSansBlock';
+    color: white;
+    font-size: 30pt;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+.button5 {
+    background-color: #00ccff;
+    color: white;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin-bottom: 20px;
+    
+    margin-left: 450px
+}
